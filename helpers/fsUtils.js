@@ -20,6 +20,7 @@ const readAndAppend = (content, file) => {
   });
 };
 
+//  Adding ability to delete specific notes
 const deleteFromFile = (file, id) => {
   fs.readFile(file, 'utf8', (err, data) => {
     if (err) {
@@ -34,6 +35,7 @@ const deleteFromFile = (file, id) => {
   });
 };
 
+// Adding function to get a random UUID to attach to each unique note
 const getUUID = () => {
   return Math.floor((1 + Math.random()) * 0x10000)
   .toString(16)

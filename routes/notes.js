@@ -13,6 +13,7 @@ notes.post('/', (req, res) => {
   const { title, text } = req.body;
 
   // If all the required properties are present
+  // Adding getUUID so we can delete a specfic note
   if (req.body) {
     const newNote = {
       id: getUUID(),
@@ -37,9 +38,8 @@ notes.post('/', (req, res) => {
 
 // DELETE Route for submitting a note
 notes.delete('/:id', (req, res) => {
+    console.log(req.params);
 
-  console.log(req.params);
-  
     deleteFromFile('./db/db.json', req.params.id);
 
     const response = {
@@ -48,4 +48,5 @@ notes.delete('/:id', (req, res) => {
 
     res.json(response);
 });
+
 module.exports = notes;
