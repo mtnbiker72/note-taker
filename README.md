@@ -1,7 +1,7 @@
 # HOMEWORK #11 - NoteTaker
 The Note Taker code can be found here:
 
-https://github.com/mtnbiker72/note-taker  
+ttps://github.com/mtnbiker72/note-taker  
 
 ## Required Modules:
 * express
@@ -24,5 +24,5 @@ Run from the heroku website -
 https://guarded-tor-62571.herokuapp.com/
 
 ## Pictures
-![Getting Started](./assets/images/start-screen.png)%            
-![Getting Started](./assets/images/note-screen.png)%            
+![Getting Started](./assets/images/start-screen.png)            
+![Getting Started](./assets/images/note-screen.png)            
