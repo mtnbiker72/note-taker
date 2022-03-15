@@ -1,7 +1,7 @@
 # HOMEWORK #11 - NoteTaker
 The Note Taker code can be found here:
 
-ttps://github.com/mtnbiker72/note-taker  
+https://github.com/mtnbiker72/note-taker  
 
 ## Required Modules:
 * express
